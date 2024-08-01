@@ -1,0 +1,57 @@
+/* Style the stopwatch container */
+.stopwatch-container {
+  width: 300px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the stopwatch display */
+.stopwatch-display {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Style the stopwatch controls */
+.stopwatch-controls {
+  margin-bottom: 20px;
+}
+
+.stopwatch-controls button {
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.stopwatch-controls button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Style the lap times */
+.lap-times {
+  margin-top: 20px;
+}
+
+.lap-times h2 {
+  margin-bottom: 10px;
+}
+
+.lap-times ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lap-times li {
+  margin-bottom: 10px;
+}
